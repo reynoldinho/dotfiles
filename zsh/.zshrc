@@ -2,6 +2,14 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/dinho.toml)"
 fi
 
+# Auto-start SSH agent only if not running and load keys from Keychain
+if [ -z "$SSH_AUTH_SOCK" ]; then
+  # Start the SSH agent
+  eval "$(ssh-agent -s)" >/dev/null
+  # Add keys from Keychain (no need to specify key paths)
+  ssh-add --apple-load-keychain >/dev/null 2>&1
+fi
+
 bindkey -v
 
 # Bind Ctrl-L to clear screen in vi insert mode
