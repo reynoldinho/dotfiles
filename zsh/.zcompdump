@@ -1,4 +1,4 @@
-#files: 1113	version: 5.9
+#files: 1118	version: 5.9
 
 _comps=(
 '_arguments' '__arguments'
@@ -110,6 +110,7 @@ _comps=(
 'add-zle-hook-widget' '_add-zle-hook-widget'
 'add-zsh-hook' '_add-zsh-hook'
 'admin' '_sccs'
+'aerospace' '_aerospace'
 'afew' '_afew'
 'ali' '_mh'
 'alias' '_alias'
@@ -205,6 +206,7 @@ _comps=(
 'bpython3-gtk' '_bpython'
 'bpython3-urwid' '_bpython'
 'brctl' '_brctl'
+'brew' '_brew'
 'bsdconfig' '_bsdconfig'
 'bsdgrep' '_grep'
 'bsdinstall' '_bsdinstall'
@@ -503,6 +505,7 @@ _comps=(
 'fail2ban-client' '_fail2ban-client'
 'fakeroot' '_fakeroot'
 'false' '_nothing'
+'fastfetch' '_fastfetch'
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
@@ -626,20 +629,16 @@ _comps=(
 'ghci' '_ghc'
 'ghead' '_head'
 'ghostscript' '_ghostscript'
+'ghostty' '_ghostty'
 'ghostview' '_pspdf'
 'gid' '_id'
 'ginstall' '_install'
 'gist' '_gist'
 'git' '_git'
 'git-buildpackage' '_git-buildpackage'
-'git-cvsserver' '_git'
 'git-flow' '_git-flow'
 'git-pulls' '_git-pulls'
-'git-receive-pack' '_git'
 'git-revise' '_git-revise'
-'git-shell' '_git'
-'git-upload-archive' '_git'
-'git-upload-pack' '_git'
 'git-wtf' '_git-wtf'
 'gitk' '_git'
 'gjoin' '_join'
@@ -1594,7 +1593,6 @@ _comps=(
 'tg' '_topgit'
 'thor' '_thor'
 'tidy' '_tidy'
-'tig' '_git'
 'time' '_precommand'
 'timeout' '_timeout'
 'times' '_nothing'
@@ -2035,7 +2033,8 @@ autoload -Uz _afew _android _archlinux-java _artisan _atach \
             _svm _teamocil _thor _tmuxinator _tmuxp \
             _tox _ts-node _tsc _udisksctl _ufw \
             _virtualbox _vnstat _wemux _wg-quick _xsel \
-            _yarn _zcash-cli __arguments _a2ps _a2utils \
+            _yarn _zcash-cli _aerospace _brew _fastfetch \
+            _ghostty _git __arguments _a2ps _a2utils \
             _aap _abcde _absolute_command_paths _ack _acpi \
             _acpitool _acroread _adb _add-zle-hook-widget _add-zsh-hook \
             _alias _aliases _all_labels _all_matches _alsa-utils \
