@@ -187,3 +187,7 @@ run = ["layout floating"]
 [[on-window-detected]]
 if.app-id = "com.objective-see.lulu.app"
 run = ["layout floating"]
+
+[[on-window-detected]]
+if.app-id = "com.aone.keka"
+run = ["layout floating"]
