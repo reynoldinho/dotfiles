@@ -28,7 +28,7 @@ if type brew &>/dev/null; then
   compinit
 fi
 
-HISTSIZE=2000
+HISTSIZE=5000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
