@@ -1,3 +1,5 @@
 .DS_Store
 raycast/
 **/.zcompdump*
+**/.zcompcache*
+*karabiner/automatic_backups*
