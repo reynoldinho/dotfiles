@@ -3,3 +3,5 @@ raycast/
 **/.zcompdump*
 **/.zcompcache*
 *karabiner/automatic_backups*
+**/zed/conversations*
+**/zed/prompts*
