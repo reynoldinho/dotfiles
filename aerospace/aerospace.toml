@@ -128,7 +128,7 @@ alt-cmd-ctrl-6 = 'workspace 6'
 alt-cmd-ctrl-7 = 'workspace 7'
 alt-cmd-ctrl-8 = 'workspace 8'
 alt-cmd-ctrl-9 = 'workspace 9'
-
+alt-cmd-ctrl-0 = 'workspace 10'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-cmd-ctrl-shift-1 = ['move-node-to-workspace 1', 'workspace 1']
 alt-cmd-ctrl-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
